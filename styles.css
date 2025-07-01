@@ -365,6 +365,7 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .pastor-photo {
@@ -375,6 +376,9 @@ footer p {
     border: 3px solid var(--primary-color);
     margin-bottom: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /* Instagram Link Styles */
@@ -415,8 +419,9 @@ footer p {
     }
     
     .pastor-image {
-        align-items: flex-start;
+        align-items: center;
         margin-left: 2rem;
+        text-align: center;
     }
     
     .logo {
