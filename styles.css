@@ -432,9 +432,13 @@ footer p {
     position: fixed;
     bottom: 30px;
     right: 30px;
+    z-index: 1000;
+}
+
+.whatsapp-link {
     display: flex;
     align-items: center;
-    z-index: 1000;
+    text-decoration: none;
 }
 
 .whatsapp-text {
@@ -449,6 +453,7 @@ footer p {
     max-width: 150px;
     text-align: center;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .floating-whatsapp {
@@ -463,15 +468,17 @@ footer p {
     font-size: 2rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
-.whatsapp-container:hover .floating-whatsapp {
+.whatsapp-link:hover .floating-whatsapp {
     transform: scale(1.1);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
-.whatsapp-container:hover .whatsapp-text {
+.whatsapp-link:hover .whatsapp-text {
     transform: translateX(-5px);
+    background-color: rgba(37, 211, 102, 1);
 }
 
 /* Responsive Styles */
@@ -526,10 +533,13 @@ footer p {
     }
     
     .whatsapp-container {
-        flex-direction: column-reverse;
-        align-items: flex-end;
         bottom: 20px;
         right: 20px;
+    }
+    
+    .whatsapp-link {
+        flex-direction: column-reverse;
+        align-items: flex-end;
     }
     
     .whatsapp-text {
