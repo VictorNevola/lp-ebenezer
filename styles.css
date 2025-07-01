@@ -136,7 +136,7 @@ section {
 }
 
 .logo {
-    max-width: 120px;
+    max-width: 100px;
     height: auto;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
     border-radius: 10px;
@@ -493,7 +493,6 @@ footer p {
     
     .hero-title {
         font-size: 2rem;
-        margin-top: 1.4rem;
     }
     
     section {
