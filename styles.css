@@ -493,6 +493,7 @@ footer p {
     
     .hero-title {
         font-size: 2rem;
+        margin-top: 1.4rem;
     }
     
     section {
@@ -519,7 +520,8 @@ footer p {
     }
     
     .hero {
-        padding: 4rem 0;
+        padding: 0;
+        padding-bottom: 4rem;
     }
     
     .btn {
